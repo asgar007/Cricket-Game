@@ -1,0 +1,7 @@
+package com.assignment.cricket.repository;
+
+import com.assignment.cricket.model.Player;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+public interface PlayerRepository extends MongoRepository<Player, String> {
+}
