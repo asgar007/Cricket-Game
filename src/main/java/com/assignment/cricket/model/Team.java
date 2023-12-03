@@ -18,6 +18,5 @@ public class Team {
     private String teamName;
     private List<Player> players; // List of players in the team
 
-
 }
 

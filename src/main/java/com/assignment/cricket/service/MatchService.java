@@ -1,8 +1,10 @@
 package com.assignment.cricket.service;
 
 import com.assignment.cricket.model.Match;
+import com.assignment.cricket.model.Scoreboard;
+import com.assignment.cricket.util.FinalResponse;
 
 public interface MatchService {
     String startMatch(int overs);
-    Match getMatchDetails(String matchId);
+    FinalResponse getMatchDetails(String matchId);
 }
